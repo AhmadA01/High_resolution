@@ -1,1 +1,1 @@
-web: gunicorn music_bot
+web: gunicorn music_bot:main
