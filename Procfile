@@ -1,1 +1,1 @@
-web: gunicorn music_bot:main
+web: python music_bot.py
