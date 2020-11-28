@@ -51,8 +51,8 @@ def main():
 
 @app.route('/')
 def home():
-    main()
     return render_templete('index.html')
 
 if __name__=='__main__':
     app.run(debug=True)
+    main()
